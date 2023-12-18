@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %} Sample shop{% endblock%}
+{% load widget_tweaks %}
+{% block main %}
+<center>
+    <h4 style="margin-top:20%">Enter product details</h4>
+    <form method = "POST">
+        {% csrf_token %}
+        <table>
+        <tr>
+            <td><label>
+                Product Name
+            </label></td>
+            <td>{% render_field form.productname %}</td>
+        </tr>
+        <tr>
+           <td><label>
+                Description
+            </label></td>
+            <td>{% render_field form.description %}</td>
+        </tr>
+        <tr><td></td><td><input type="submit"></td></tr>
+        </table>
+    </form>
+</center>
+{% endblock %}
