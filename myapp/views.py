@@ -49,7 +49,7 @@ def get_recommendations(user_profile):
 
     return list(set(recommendations))
 
-def home(request, c_id):
+def home(request, c_id = 0):
     # user : puneeth pass: 123
     if request.user.is_anonymous:
         return redirect('/login')
