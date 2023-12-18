@@ -18,8 +18,8 @@
   ⭐️ Ctrl + Click on the localhost ip address and the website should appear on your default browser 🌐<br>
 
 # How the recomendation works
-  🤖 Our recommendation system employs **user-user collaborative filtering**, a technique that recommends products to a target user by identifying and leveraging the interests of similar users.<br>
-  🤖 We utilize the **cosine similarity metric** to assess the degree of similarity in user interests, determining how closely their preferences align.<br>
+  🤖 The recommendation system employs **user-user collaborative filtering**, a technique that recommends products to a target user by identifying and leveraging the interests of similar users.<br>
+  🤖 It uses the **cosine similarity metric** to assess the degree of similarity in user interests, determining how closely their preferences align.<br>
   
 # Appplication Demo
 
